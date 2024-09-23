@@ -102,7 +102,7 @@ class _SnakePageState extends State<SnakePage> {
       builder: (BuildContext context) {
         return AlertDialog(
           backgroundColor: Colors.grey.withOpacity(.9),
-          title: Text("Game Over"),
+          title: const Text("Game Over"),
           content: Text(
             "Votre score est: ${snakePosition.length}",
             style: TextStyle(
